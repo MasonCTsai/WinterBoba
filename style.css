@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+    font-family: 'Lucida Handwriting';
+    background: #5ab4e8;
+    color: darkblue;
+    margin-left: -5000px;
+    animation-name: slide;
+    animation-duration: 6s;
+    overflow: hidden;
+}
+
+img {
+    width:400px;
+    margin-left: 4800px;
+}
+
+@keyframes slide {
+    0% {
+        margin-left: 3000px;
+    }
+    100% {
+        margin-left: -5000px;
+    }
+}
